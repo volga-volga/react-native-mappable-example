@@ -1521,7 +1521,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNMappable (4.7.2):
+  - RNMappable (4.7.2-b.1):
     - MappableMobile (= 1.1.0-full)
     - React
   - RNScreens (3.34.0):
@@ -1824,10 +1824,10 @@ SPEC CHECKSUMS:
   ReactCodegen: 60973d382704c793c605b9be0fc7f31cb279442f
   ReactCommon: 6ef348087d250257c44c0204461c03f036650e9b
   RNGestureHandler: 939f21fabf5d45a725c0bf175eb819dd25cf2e70
-  RNMappable: 46f6a88d814edb83d9db1cf888e127b1271940d9
+  RNMappable: 045a2477e7c7a3be1d1d3764347ac9bddd04a995
   RNScreens: 19719a9c326e925498ac3b2d35c4e50fe87afc06
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
-  Yoga: a1d7895431387402a674fd0d1c04ec85e87909b8
+  Yoga: 2a45d7e59592db061217551fd3bbe2dd993817ae
 
 PODFILE CHECKSUM: 7a2c20685629c7ed0170a161506e8e8c837d7c4e
 
