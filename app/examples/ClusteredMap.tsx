@@ -17,8 +17,6 @@ import {useNavigation} from '@react-navigation/native';
 import {BLACK} from '../assets';
 import styles from './styles';
 
-// Mappable.init(MAP_KEY);
-
 const ClusteredMap = () => {
   const map = useRef<ClusteredMappable>(null);
   const [markers, setMarkers] = useState<Point[]>([]);
