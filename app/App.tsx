@@ -4,9 +4,9 @@ import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import Mappable from 'react-native-mappable';
 import {MAP_KEY} from './examples/api_keys';
 
-Mappable.init(MAP_KEY);
-
 Mappable.setLocale('en_US');
+
+Mappable.init(MAP_KEY);
 
 const App = () => {
   return (
