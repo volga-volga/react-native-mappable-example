@@ -17,7 +17,7 @@ import MappableMap, {
   Circle,
   Polygon,
   Search,
-  Marker,
+  Marker, MarkerImage,
 } from 'react-native-mappable';
 import ButtonsBlock from './ButtonsBlock.tsx';
 import Mappable from 'react-native-mappable';
@@ -139,6 +139,13 @@ const MapWithPrimitives = () => {
         nightMode={night}
         onMapLongPress={onMapLongPress}>
         {markerPoint}
+        {polyline.map((item, index) => (<Marker key={index} point={item}>
+          <MarkerImage style={{width: 40, height: 40}} source={{
+            uri: `https://dummyimage.com/${60 * (index + 1)}x${
+              40 * (index + 1)
+            }/000/fff.svg`,
+          }}/>
+        </Marker>))}
         {polyline.length > 2 && (
           <Polygon
             points={polyline}
